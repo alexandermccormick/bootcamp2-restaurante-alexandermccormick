@@ -122,6 +122,7 @@ nav.navbar {
   font-family: 'Lobster', cursive;
   color: #f8512f;
   font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
 }
 
 .one_man {
@@ -145,6 +146,7 @@ nav.navbar {
   font-weight: 300;
 }
 /*==== END OUR STORY ====*/
+<<<<<<< HEAD
 
 /*==== aREVIEW ====*/
 
@@ -173,3 +175,5 @@ nav.navbar {
   font-weight: 300;
   font-size: 2em;
 }
+=======
+>>>>>>> d4570872320919add7a68ff24030dad05a03abf4
