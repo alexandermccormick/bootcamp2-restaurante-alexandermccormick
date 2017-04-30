@@ -12,6 +12,12 @@ font-family: 'Raleway', sans-serif;*/
   text-shadow: 1px 1px 5px #0a0a0a;
 }
 
+.flex-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 /*==== END UNIVERSAL ====*/
 
 /*==== NAVBAR ====*/
@@ -47,6 +53,11 @@ nav.navbar {
 }
 
 .navbar-brand>img {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
   margin-top: -7px;
 }
 
@@ -146,9 +157,12 @@ nav.navbar {
   font-weight: 300;
 }
 /*==== END OUR STORY ====*/
-<<<<<<< HEAD
 
 /*==== aREVIEW ====*/
+
+#review>div:first-child {
+  height:600px;
+}
 
 #review {
   background-image: url('../img/food_review.jpg');
@@ -158,7 +172,6 @@ nav.navbar {
 
 .center {
   background-color: rgba(20, 20, 20, 0.6);
-  margin-top: 145px;
   padding: 10px;
   border-radius: 5px;
 }
@@ -175,5 +188,3 @@ nav.navbar {
   font-weight: 300;
   font-size: 2em;
 }
-=======
->>>>>>> d4570872320919add7a68ff24030dad05a03abf4

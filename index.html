@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Restaurante</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-3.3.7.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -82,8 +82,8 @@
 		  </a>
 		</div>
 	</div>
-			<!-- END CAROUSEL -->
-			<!-- OUR STORY -->
+	<!-- END CAROUSEL -->
+	<!-- OUR STORY -->
 	<div class="container-fluid" id="our_story">
 		<div class="row our_story_row">
 			<div class="col-sm-4 col-sm-offset-1">
@@ -99,17 +99,26 @@
 			</div>
 		</div>
 	</div>
-			<!-- END OUR STORY -->
+	<!-- END OUR STORY -->
+	<!-- REVIEWa -->
 	<div class="container-fluid" id="review">
 		<div class="row text-center">
-			<div class="col-sm-8 col-sm-offset-2 center">
-				<h1 class="fresno-bee text-shadow">Fresno Bee</h1>
-				<p class="review text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore molestias quidem minima odit, deserunt quam?</p>
+			<div class="flex-container">
+				<div class="col-sm-8 center">
+					<h1 class="fresno-bee text-shadow">Fresno Bee</h1>
+					<p class="review text-shadow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore molestias quidem minima odit, deserunt quam?</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!-- javascript	 -->
+	<!-- END REVIEWa -->
+	<!-- JAVASCRIPT	 -->
 	<script src="js/jquery-3.2.0.min.js"></script>
 	<script src="js/bootstrap-3.3.7.min.js"></script>
+	<script src="js/jquery.bcSwipe.min.js"></script>
+	<script>
+	$('.carousel').bcSwipe({ threshold: 50 });
+	</script>
+	<!-- END JAVASCRIPT -->
 </body>
 </html>
