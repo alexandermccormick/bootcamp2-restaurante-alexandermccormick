@@ -3,21 +3,23 @@
 font-family: 'Raleway', sans-serif;*/
 /*==== UNIVERSAL ====*/
 
-.container-fluid{
+/*.container-fluid{
   padding:0;
   margin:0;
-}
+}  not needed after removing container-fluid from carousel*/
 
 .text-shadow {
   text-shadow: 1px 1px 5px #0a0a0a;
 }
 
 .flex-container {
-  height: 100%;
+  min-height: inherit;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
+
 /*==== END UNIVERSAL ====*/
 
 /*==== NAVBAR ====*/
@@ -59,6 +61,12 @@ nav.navbar {
   left: 0;
   z-index: 20;
   margin-top: -7px;
+}
+
+@media (min-width: 768px) {
+  .navbar-right{
+    margin-right: 0;
+  }
 }
 
 /*==== END NAVBAR ====*/
@@ -125,8 +133,13 @@ nav.navbar {
   min-height:600px;
 }
 
+#our_story {
+  margin-top: -50px;
+}
+
 .our_story_row {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
+  min-height: inherit;
 }
 
 .our_story {
@@ -161,7 +174,7 @@ nav.navbar {
 /*==== aREVIEW ====*/
 
 #review>div:first-child {
-  height:600px;
+  min-height: inherit;
 }
 
 #review {
@@ -188,3 +201,18 @@ nav.navbar {
   font-weight: 300;
   font-size: 2em;
 }
+
+
+/*==== MEDIA QUERY ====*/
+
+/*@media only screen and (max-width: 415px) {
+  .our_story_row>div:first-child {
+    min-height: inherit;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+  }
+}*/
+
+/*==== END MEDIA QUERY ===*/
