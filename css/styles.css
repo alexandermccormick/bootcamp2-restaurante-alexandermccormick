@@ -205,14 +205,14 @@ nav.navbar {
 
 /*==== MEDIA QUERY ====*/
 
-/*@media only screen and (max-width: 415px) {
-  .our_story_row>div:first-child {
-    min-height: inherit;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-
+@media only screen and (max-width: 415px) {
+  .fresno-bee {
+    font-size: 15vw;
   }
-}*/
+
+  .review {
+    font-size: 5vw;
+  }
+}
 
 /*==== END MEDIA QUERY ===*/
